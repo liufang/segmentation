@@ -15,7 +15,7 @@
 
 //匹配结果结构
 typedef struct s_result_node {
-	seg_str* word;
+	word* word;
 	struct s_result* next;
 } result_node;
 
@@ -28,7 +28,7 @@ typedef struct s_result {
 
 //分词
 result* seg(const char* str);
-void add_result_node(result* result, seg_str* word);
+void add_result_node(result* result, word* w);
 result* init_result();
 //free result
 void free_result(result* r);

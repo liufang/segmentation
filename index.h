@@ -16,10 +16,16 @@
 
 #define BUF_SIZE 100000
 
+//定义词组单元
+typedef struct s_word {
+	seg_str* str;
+	//TODO 添加词组的一些其他特征, 方便以后扩展
+} word;
+
 //定义索引节点
 typedef struct s_index_node {
 	char c;
-	seg_str* word;
+	word* word;
 	struct s_index_node* next; //平行的下个节点
 	struct s_index_node* leef; //下一个字节
 } index_node;
@@ -29,6 +35,9 @@ typedef struct s_index_head {
 	index_node* node; //首个节点指针
 	int node_count; //节点总数
 } index_head;
+
+//创建词组
+word* create_word(seg_str* str);
 
 //初始化一个节点
 static index_node* init_node();

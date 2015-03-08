@@ -9,11 +9,11 @@
 #include "seg.h"
 
 //添加结果
-void add_result(result* r, seg_str* word)
+void add_result(result* r, word* w)
 {
 	//创建结果节点
 	result_node* node = (result_node*)malloc(sizeof(result_node));
-	node->word = word;
+	node->word = w;
 	node->next = NULL;
 
 	if(r->count == 0) {
@@ -108,7 +108,7 @@ void print_result(result* r)
 	if(r->count > 0) {
 		node = r->node;
 		do{
-			printf("%s ", node->word->str);
+			printf("%s ", node->word->str->str);
 		} while((node = node->next) != NULL);
 	}
 	printf("\r\f");

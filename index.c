@@ -73,6 +73,15 @@ void init_index(const char* file)
     fclose(fp_word);
 }
 
+//创建词组
+//TODO 不存在重复单词处理
+word* create_word(seg_str* str)
+{
+	word* w = (word*)malloc(sizeof(word));
+	w->str = str;
+	return w;
+}
+
 //索引添加个单词
 static void index_add_word(index_head* head, seg_str* str)
 {
@@ -89,7 +98,7 @@ static void index_add_word(index_head* head, seg_str* str)
 		tmp_str++;
 		if(*tmp_str == '\0') {
 			//单词索引创建结束, 赋值单词
-			node->word = str;
+			node->word = create_word(str);
 			break;
 		}
 		//检查是否存在进一步的节点, 使用下一个字节补上, 可防止浪费空间
@@ -110,7 +119,7 @@ void print_index_node(index_node* node)
 		if(node->word == NULL) {
 			printf("这是一个中间节点\r\n");
 		} else {
-			printf("这是一个非空节点:%s\r\n", node->word->str);
+			printf("这是一个非空节点:%s\r\n", node->word->str->str);
 		}
 	}
 }
