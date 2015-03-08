@@ -1,10 +1,10 @@
 /*
- * seg.h
+ *  segmentation
  *
- *  Created on: Mar 5, 2015
- *      Author: fang
+ *  license: GPL2
+ *  Copyright (C) i@liufang.org.cn
+ *  Author: fang.liu
  */
-
 #ifndef SEG_H_
 #define SEG_H_
 

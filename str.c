@@ -1,8 +1,9 @@
 /*
- * 分词字符串库
+ *  segmentation
  *
- *  Created on: Mar 5, 2015
- *      Author: fang
+ *  license: GPL2
+ *  Copyright (C) i@liufang.org.cn
+ *  Author: fang.liu
  */
 
 #include "str.h"

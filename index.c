@@ -1,8 +1,9 @@
 /*
- * 分词程序索引初始化工作
+ *  segmentation
  *
- *  Created on: Mar 5, 2015
- *      Author: fang
+ *  license: GPL2
+ *  Copyright (C) i@liufang.org.cn
+ *  Author: fang.liu
  */
 
 #include "index.h"

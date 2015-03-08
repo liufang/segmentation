@@ -1,8 +1,9 @@
 /*
- * debug.h
+ *  segmentation
  *
- *  Created on: Mar 8, 2015
- *      Author: fang
+ *  license: GPL2
+ *  Copyright (C) i@liufang.org.cn
+ *  Author: fang.liu
  */
 
 #ifndef DEBUG_H_

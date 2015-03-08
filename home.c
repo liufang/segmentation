@@ -1,8 +1,9 @@
 /*
- * home.c
+ *  segmentation
  *
- *  Created on: Mar 8, 2015
- *      Author: fang
+ *  license: GPL2
+ *  Copyright (C) i@liufang.org.cn
+ *  Author: fang.liu
  */
 
 #include "seg.h";
