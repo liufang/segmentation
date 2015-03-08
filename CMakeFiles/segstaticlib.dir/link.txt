@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsegstaticlib.a  CMakeFiles/segstaticlib.dir/seg.c.o CMakeFiles/segstaticlib.dir/str.c.o CMakeFiles/segstaticlib.dir/index.c.o
+/usr/bin/ranlib libsegstaticlib.a

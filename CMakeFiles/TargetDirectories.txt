@@ -1,0 +1,3 @@
+/home/fang/app/c/seg/CMakeFiles/segmentation.dir
+/home/fang/app/c/seg/CMakeFiles/segmentation_shared.dir
+/home/fang/app/c/seg/CMakeFiles/segmentation_static.dir

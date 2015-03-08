@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/segmentation.dir/seg.c.o CMakeFiles/segmentation.dir/str.c.o CMakeFiles/segmentation.dir/index.c.o CMakeFiles/segmentation.dir/home.c.o  -o bin/segmentation -rdynamic 
