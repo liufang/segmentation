@@ -35,6 +35,21 @@ result* init_result()
 	return r;
 }
 
+//释放result树
+void free_result(result* r)
+{
+	result_node *node = r->node, *tmp_node;
+	//free result node
+	while(node != NULL) {
+		tmp_node = node->next;
+		free(node);
+		node = tmp_node;
+	}
+
+	//free result
+	free(r);
+}
+
 //分词
 result* seg(const char* str)
 {

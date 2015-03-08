@@ -30,6 +30,8 @@ typedef struct s_result {
 result* seg(const char* str);
 void add_result_node(result* result, seg_str* word);
 result* init_result();
+//free result
+void free_result(result* r);
 //打印匹配结果
 void print_result(result* r);
 
