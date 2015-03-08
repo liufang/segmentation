@@ -1,0 +1,9 @@
+CMakeFiles/*
+Makefile
+*.a
+*.so
+bin/*
+cmake_install.cmake
+.cproject
+.gitignore~
+.project
