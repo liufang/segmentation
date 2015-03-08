@@ -1,2 +1,0 @@
-/usr/bin/ar cr bin/libsegmentation.a  CMakeFiles/segmentation_static.dir/seg.c.o CMakeFiles/segmentation_static.dir/str.c.o CMakeFiles/segmentation_static.dir/index.c.o
-/usr/bin/ranlib bin/libsegmentation.a

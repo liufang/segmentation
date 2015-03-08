@@ -1,2 +1,0 @@
-/usr/bin/ar cr libseglig.a  CMakeFiles/seglig.dir/seg.c.o CMakeFiles/seglig.dir/str.c.o CMakeFiles/seglig.dir/index.c.o
-/usr/bin/ranlib libseglig.a

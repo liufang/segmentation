@@ -1,1 +1,0 @@
-/usr/bin/cc  -fPIC    -shared -Wl,-soname,libsegmentation.so -o bin/libsegmentation.so CMakeFiles/segmentation_shared.dir/seg.c.o CMakeFiles/segmentation_shared.dir/str.c.o CMakeFiles/segmentation_shared.dir/index.c.o 
