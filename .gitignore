@@ -3,6 +3,7 @@ Makefile
 *.a
 *.so
 bin/*
+CMakeCache.txt
 cmake_install.cmake
 .cproject
 .gitignore~
