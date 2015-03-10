@@ -26,3 +26,9 @@ add_executable(segmentation ${EXEC_SOURCE_FILES})
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 #设置生成的库文件存储路径
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+#定义软件安装规则
+install(TARGETS segmentation segmentation_shared segmentation_static
+            RUNTIME DESTINATION bin
+            LIBRARY DESTINATION lib
+            ARCHIVE DESTINATION lib/static)
