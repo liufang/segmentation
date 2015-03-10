@@ -32,3 +32,6 @@ install(TARGETS segmentation segmentation_shared segmentation_static
             RUNTIME DESTINATION bin
             LIBRARY DESTINATION lib
             ARCHIVE DESTINATION lib/static)
+            
+#头文件安装
+install (FILES seg.h debug.h index.h str.h DESTINATION include/segmentation)
