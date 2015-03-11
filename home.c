@@ -7,7 +7,7 @@
  */
 
 #include <unistd.h>
-#include "seg.h"
+#include "segmentation.h"
 
 int main(int argc, char** argv)
 {
