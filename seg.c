@@ -58,7 +58,6 @@ result* seg(const char* str)
 	char *tmp_str, *last_node_str;
 	index_node *n, *last_node;
 	result* result = init_result();
-	printf("当前分词:%s\r\f", str);
 
 	//init result head
 	//循环至字符串结束

@@ -12,6 +12,7 @@
 #include "str.h"
 #include "index.h"
 
+#define SEGMENTATION_VERSION "1.0"
 
 //匹配结果结构
 typedef struct s_result_node {
